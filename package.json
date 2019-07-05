@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "goldpage dev",
+    "build": "goldpage build",
+    "prod": "npm run build && npm run start",
+    "start": "export NODE_ENV='production' && node ./.build/nodejs/server"
+  },
+  "dependencies": {
+    "@goldpage/react": "^0.5.5",
+    "@goldpage/serverless": "^0.5.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "goldpage": "^0.5.5"
+  }
+}
